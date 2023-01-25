@@ -1,0 +1,39 @@
+/* font-size */
+/* px, rem is fixed */
+/* em and % is relative and hence change according to parent size */
+
+/* for height and width
+vh is used so remain selative to screen */
+
+/* use universal function at start so it if anything have not overwriten then it can be seen easily */
+
+* {
+    color: brown;
+}
+
+#image{
+    width: 500px;
+    height: 200px;
+    background: linear-gradient(to top, rgba(100,0,0,0.3),rgba(255,100,239,0.5)), url("cat.jpg") center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+    
+}
+
+
+#title {
+    color: green;
+}
+
+.classes1{
+    color: blue;
+}
+
+/* outline is use to create a line around elements */
+#outline1{
+    outline-width: 0ch;
+    outline-style: solid;
+    outline-color: black;
+    outline-offset: 0in;
+}

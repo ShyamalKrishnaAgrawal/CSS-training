@@ -1,0 +1,40 @@
+/* font-size */
+/* px, rem is fixed */
+/* em and % is relative and hence change according to parent size */
+
+/* for height and width
+vh is used so remain selative to screen */
+
+/* use universal function at start so it if anything have not overwriten then it can be seen easily */
+
+* {
+    color: brown;
+}
+
+#title {
+    color: green;
+}
+
+.classes1{
+    color: blue;
+}
+
+/* outline is use to create a line around elements */
+#outline1{
+    outline-width: 0ch;
+    outline-style: solid;
+    outline-color: black;
+    outline-offset: 0in;
+}
+
+/* opacity effect text also */
+/* boder is used to define make at container div */
+/* outline can be anywhere */
+/* to hide container and to colapse space use display none */
+/* visiblity none is used to hide the container but preserve space */
+/* background is fixed you can start checking up fix image and it appears text is moving on image */
+/*  linear gradient is used for transition between colors use colorzilla if required to get css code to setup color as you want */
+/* float is used to shift text beside image it is used with image and container*/
+/* clear is used to clear the area from text beside image it is used with text */
+
+
